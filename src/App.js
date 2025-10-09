@@ -16,7 +16,7 @@ class App extends React.Component {
   initializeGoogleSignIn() {
     window.gapi.load('auth2', () => {
       window.gapi.auth2.init({
-        client_id: '886474662299-pjvv2e3midhh92e51v7hrlgn49mr5mvp.apps.googleusercontent.com'
+        client_id: 'YOUR_CLIENT_ID'
       })
       console.log('Api inited')
 
